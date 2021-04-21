@@ -1,0 +1,101 @@
+#profile {
+    border-radius: 50%;
+    width: 300px;
+    margin-bottom: 100px;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: black;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.83;
+    background: linear-gradient(#03fcdb 0%, #03fc4a 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Zen Dots', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.line {
+    height: 6px;
+    width: 100px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.bla {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover {
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    }
